@@ -18,7 +18,6 @@ Other details:
 - The server implements thread-per-connection model to provide service.
 
 ### Interaction diagram
-![](https://github.com/Irrela/Dictionary-Multi-users/raw/master/Interaction%20diagram.png?raw=true)
 
 ## How to run
 
