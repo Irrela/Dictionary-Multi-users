@@ -17,6 +17,9 @@ Other details:
 - The dictionary data is maintained by a json file, a new latest one will be generated each time server is down, and manager can load any stored version when launching the server.
 - The server implements thread-per-connection model to provide service.
 
+### Interaction diagram
+![](https://github.com/Irrela/Dictionary-Multi-users/raw/master/Interaction%20diagram.png?raw=true)
+
 ## How to run
 
 1. Download DictionaryServer.jar, DictionaryClient.jar and dict.json(you can make your own dictionary file).
