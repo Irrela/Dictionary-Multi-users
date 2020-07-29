@@ -116,7 +116,7 @@ public class ServiceThread implements Runnable{
     }
 
     //Write current server dictionary data into 'dict.json' after client closes.
-    public synchronized void updateJsonFile() throws IOException {
+    public static synchronized void updateJsonFile() throws IOException {
         FileWriter file = new FileWriter("dict.json");
         JSONArray currentDict = new JSONArray();
         currentDict.add(getThreadDict());
