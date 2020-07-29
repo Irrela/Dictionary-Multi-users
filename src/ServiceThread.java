@@ -84,7 +84,7 @@ public class ServiceThread implements Runnable{
     }
 
     //Add a new word into current dictionary of server.
-    public synchronized String add(String word, String meaning){
+    public static synchronized String add(String word, String meaning){
         String result = "";
 
         System.out.println("Client on thread \'" + Thread.currentThread().getName() + "\' ADD: " + word);
@@ -101,7 +101,7 @@ public class ServiceThread implements Runnable{
     }
 
     //Remove a word from current dictionary of server.
-    public synchronized String remove(String word){
+    public static synchronized String remove(String word){
 
         String result = "";
 
